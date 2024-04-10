@@ -8,7 +8,7 @@ import "../../node_modules/mapbox-gl/dist/mapbox-gl.css";
 import { onMount } from "svelte";
 import { PUBLIC_MAPBOX_ACCESS_TOKEN } from '$env/static/public';
 
-let mapContainer;
+let mapContainer:any;
 let lng = -71.224518;
 let lat = 42.213995;
 let zoom = 9;
